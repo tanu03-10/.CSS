@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 30px;
+
+    background-color: black;
+    color: white;
+
+    z-index: 10;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+section {
+    height: 500px;
+    padding: 30px;
+    text-align: center;
+}
+
+section:nth-child(2) {
+    background-color: lightblue;
+}
+
+section:nth-child(3) {
+    background-color: lightpink;
+}
+
+section:nth-child(4) {
+    background-color: lightgreen;
+}

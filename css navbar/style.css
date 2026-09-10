@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 40px;
+
+    background-color: black;
+}
+
+nav h2 {
+    color: white;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: orange;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+/* Mobile screen */
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .links {
+        gap: 15px;
+    }
+}

@@ -1,0 +1,47 @@
+/* tag based selector */
+
+/* h1{
+    background-color: aliceblue;
+}
+h2{
+    background-color: aliceblue;
+}
+ul{
+    background-color: antiquewhite;
+} */
+
+/* id bases selector*/
+ /* #first{
+    background-color: blue;
+ }
+ #second{
+    background-color: blueviolet;
+ }
+ #third{
+    background-color: brown;
+ } */
+  /* class based selector */
+  /* .fourth{
+    background-color: bisque;
+  } */
+   /* grouping based selector */
+   /* h2 , .fourth{
+    background-color: aqua;
+   } */
+    /* h1{
+        background-color: rgba(180, 144, 134);
+    }
+    h2{
+        background-color: hsla(hue, saturation, lightness, alpha);
+    } */
+     /* h1{
+        background-color: #66bc66;
+     } */
+/* FONT */
+h1{
+    /* font-size: medium; */
+    /* font-size: 2em;
+}
+ul{
+    font-size: 0lvw;
+}

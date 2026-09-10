@@ -1,0 +1,94 @@
+/* .parent-box{
+    position:relative;
+    height: 300;
+}
+.child-box{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+    transform:translate(-50%,-50%);
+} */
+
+/* .parent-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.child-box{
+
+    font-style: normal;
+} */
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f2f2;
+
+}
+
+
+h1 {
+
+    text-align: center;
+
+}
+
+
+/* Flex Container */
+
+.container {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+/* Flex Items */
+
+.card {
+
+    width: 250px;
+
+    background-color: white;
+
+    padding: 20px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 10px gray;
+
+}
+
+
+.card h2 {
+
+    color: blue;
+
+}
+
+
+button {
+
+    background-color: black;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border: none;
+
+}

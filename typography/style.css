@@ -1,0 +1,89 @@
+body {
+
+    background-color: #f4f4f4;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+/* Main Container */
+
+.container {
+
+    width: 500px;
+
+    background-color: white;
+
+    padding: 30px;
+
+    margin: 50px auto;
+
+}
+
+
+/* Heading */
+
+h1 {
+
+    text-align: center;
+
+    color: blue;
+
+    font-size: 35px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    text-shadow: 2px 2px 5px gray;
+
+}
+
+
+/* Sub Heading */
+
+h2 {
+
+    color: purple;
+
+    letter-spacing: 2px;
+
+}
+
+
+/* Paragraph */
+
+p {
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    text-align: justify;
+
+    color: #333;
+
+}
+
+
+/* Link */
+
+a {
+
+    color: red;
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+}
+
+
+/* Link Hover */
+
+a:hover {
+
+    text-decoration: underline;
+
+}

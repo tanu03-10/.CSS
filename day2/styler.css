@@ -1,0 +1,12 @@
+h1{
+    background-color: beige;
+    position:relative;
+    left:10px;
+}
+/* top bottom right left also */
+h2{
+    position:fixed; 
+    background-color: aqua;
+    left:30px;
+    border-top: 40px;
+}

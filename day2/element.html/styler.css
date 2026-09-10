@@ -1,0 +1,15 @@
+h1{
+    /* color: blue; */
+    background-color: aqua;
+    height: 10px;
+    margin:20px;
+    display:inline;
+    display:inline-block
+    
+}
+h2{
+    background-color: aqua;
+    display: inline;
+    height: 100px;
+    width: ;
+}

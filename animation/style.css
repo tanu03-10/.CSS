@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: blue;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 100px auto;
+
+    animation: moveBox 2s infinite;
+}
+
+/* Animation */
+@keyframes moveBox {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(200px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

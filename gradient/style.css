@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: blue;
+}
+
+.linear {
+    width: 300px;
+    padding: 50px;
+    margin: 30px auto;
+    color: white;
+
+    background: linear-gradient(to right, blue, purple);
+}
+
+.radial {
+    width: 300px;
+    padding: 50px;
+    margin: 30px auto;
+    color: white;
+
+    background: radial-gradient(circle, orange, red);
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    color: white;
+
+    background: linear-gradient(to right, green, blue);
+
+    border-radius: 5px;
+}

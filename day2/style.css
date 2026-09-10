@@ -1,0 +1,23 @@
+h1{
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+
+    border-color: brown;
+    border-style: dashed;
+    border-width: 10px ;
+    padding-top: 20px;
+
+    
+}
+h2{
+    background-color: aqua;
+    background-position: center;
+    border-color: brown;
+    padding: 20px;
+    margin-top: 10px;
+}
+p{
+    background-color: blueviolet;
+    padding-left: 20px;
+}
